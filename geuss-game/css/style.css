@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* adds padding inside the box */
+}
+
+input[type="submit"],
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    form, table {
+        width: 100%;
+    }
+}
+.play-again {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.play-again-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.play-again-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+}
+
