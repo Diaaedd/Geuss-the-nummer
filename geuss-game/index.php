@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Guess The Number!!</h1>
+    <h1>Guess The 10 Number!!</h1>
     <form action="game.php" method="POST">
         Your Name: <input type="text" name="username" required><br>
         Set minimum: <input type="number" name="min_range" required><br>
